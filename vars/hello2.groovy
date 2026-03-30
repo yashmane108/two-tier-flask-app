@@ -1,3 +1,3 @@
 def call(String name = 'User') {
-  echo 'Hello, $(User)!. This is jenkins shared lib from /var'
+  echo 'Hello, $(name)!. This is jenkins shared lib from /var'
 }
