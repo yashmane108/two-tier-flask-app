@@ -6,6 +6,6 @@ def call(String CredID, String ImageID){
    )]){
    sh "docker login -u ${env.dockerHubUser} -p ${env.dockerHubPass}"
    sh "docker image tag ${ImageID} ${env.dockerHubUser}/${ImageID}"
-   sh "docker push ${env.dockerHubUser}/${ImageID}:${BUILD_NUMBER}"
+   sh "docker push ${env.dockerHubUser}/${ImageID}:latest"
    }
 }
