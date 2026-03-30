@@ -1,8 +1,8 @@
-# Jenkins Shared Library – For My YouTube CI/CD Tutorial Series
+# Learn Jenkins Shared Library –
 
 
-This repository contains the **Jenkins Shared Libraries** used in my YouTube tutorial series.  
-It is designed to help beginners understand how to reuse Groovy functions, clean up Jenkinsfiles, and build scalable CI/CD pipelines.
+This repository contains the **Jenkins Shared Libraries**.
+It is designed to help beginners understand how to reuse Groovy functions.
 
 ---
 
@@ -123,16 +123,3 @@ pipeline {
     }
 }
 ```
-
----
-
-# 🎥 YouTube Series
-This repo is part of my full Jenkins tutorial series:
-
-📺 **Watch here:**  
-https://www.youtube.com/watch?v=4FS4s2PBqMI&list=PLBr8obKbpkYvJEaPmrzhHhwx8uPj8WYbg  
-
----
-
-# ⭐ Support the Channel
-If this repo helped you, please ⭐ **star the repo** and subscribe to the channel! 🙌
