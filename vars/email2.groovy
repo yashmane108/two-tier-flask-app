@@ -9,7 +9,7 @@ def call(String status, String toEmail) {
    } else if (status == "FAILURE") {
        emailext(
            from: 'yashmane98721@gmail.com',
-           to: 'awslearning781@gmail.com',
+           to: '$toEmail',
            subject: "Build Failed",
            body: "Bad News Build Failed"
        )
