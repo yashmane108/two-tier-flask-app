@@ -9,7 +9,7 @@ def call(String SQtoken){
    -e SONAR_HOST_URL="http://3.82.111.130:9000" \
    -e SONAR_SCANNER_OPTS="-Dsonar.projectKey=visitor-book" \
    -e SONAR_TOKEN="${env.SONAR_TOKEN}" \
-   -v "\$(pwd):/usr/src" \ 
+   -v "\$(pwd):/usr/src" \
    sonarsource/sonar-scanner-cli
    """
    }
